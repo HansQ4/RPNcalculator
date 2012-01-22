@@ -8,8 +8,16 @@
 
 #import <Cocoa/Cocoa.h>
 
+
 @interface CalculatorAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTextField *mydisplay;
+
+
+- (IBAction)digitPressed:(id)sender;
+- (IBAction)operationPressed:(id)sender;
+- (IBAction)enterPressed:(id)sender;
+
 
 @end
