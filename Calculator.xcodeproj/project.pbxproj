@@ -17,6 +17,8 @@
 		3A2B364214CAC54A009A5B5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2B362214CAC549009A5B5E /* Cocoa.framework */; };
 		3A2B364A14CAC54A009A5B5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B364814CAC54A009A5B5E /* InfoPlist.strings */; };
 		3A2B364D14CAC54A009A5B5E /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B364C14CAC54A009A5B5E /* CalculatorTests.m */; };
+		3A2B374114CC1AEB009A5B5E /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B374014CC1AEB009A5B5E /* CalculatorBrain.m */; };
+		3A2B374C14CC339D009A5B5E /* rpn-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B374B14CC339D009A5B5E /* rpn-icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +37,23 @@
 		3A2B362514CAC549009A5B5E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		3A2B362614CAC549009A5B5E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3A2B362714CAC549009A5B5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3A2B362A14CAC549009A5B5E /* Calculator-Info.plist */ = {isa = PBXFileReference; path = "Calculator-Info.plist"; sourceTree = "<group>"; };
+		3A2B362A14CAC549009A5B5E /* Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calculator-Info.plist"; sourceTree = "<group>"; };
 		3A2B362C14CAC549009A5B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A2B362E14CAC54A009A5B5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3A2B363014CAC54A009A5B5E /* Calculator-Prefix.pch */ = {isa = PBXFileReference; path = "Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		3A2B363014CAC54A009A5B5E /* Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Prefix.pch"; sourceTree = "<group>"; };
 		3A2B363214CAC54A009A5B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		3A2B363414CAC54A009A5B5E /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		3A2B363414CAC54A009A5B5E /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
 		3A2B363514CAC54A009A5B5E /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
 		3A2B363814CAC54A009A5B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3A2B363F14CAC54A009A5B5E /* CalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2B364014CAC54A009A5B5E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3A2B364714CAC54A009A5B5E /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		3A2B364714CAC54A009A5B5E /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		3A2B364914CAC54A009A5B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3A2B364B14CAC54A009A5B5E /* CalculatorTests.h */ = {isa = PBXFileReference; path = CalculatorTests.h; sourceTree = "<group>"; };
+		3A2B364B14CAC54A009A5B5E /* CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorTests.h; sourceTree = "<group>"; };
 		3A2B364C14CAC54A009A5B5E /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		3A2B373F14CC1AEB009A5B5E /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		3A2B374014CC1AEB009A5B5E /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
+		3A2B374B14CC339D009A5B5E /* rpn-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "rpn-icon.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,7 @@
 		3A2B361314CAC549009A5B5E = {
 			isa = PBXGroup;
 			children = (
+				3A2B374B14CC339D009A5B5E /* rpn-icon.icns */,
 				3A2B362814CAC549009A5B5E /* Calculator */,
 				3A2B364514CAC54A009A5B5E /* CalculatorTests */,
 				3A2B362114CAC549009A5B5E /* Frameworks */,
@@ -117,6 +123,8 @@
 				3A2B363414CAC54A009A5B5E /* CalculatorAppDelegate.h */,
 				3A2B363514CAC54A009A5B5E /* CalculatorAppDelegate.m */,
 				3A2B363714CAC54A009A5B5E /* MainMenu.xib */,
+				3A2B373F14CC1AEB009A5B5E /* CalculatorBrain.h */,
+				3A2B374014CC1AEB009A5B5E /* CalculatorBrain.m */,
 				3A2B362914CAC549009A5B5E /* Supporting Files */,
 			);
 			path = Calculator;
@@ -226,6 +234,7 @@
 				3A2B362D14CAC549009A5B5E /* InfoPlist.strings in Resources */,
 				3A2B363314CAC54A009A5B5E /* Credits.rtf in Resources */,
 				3A2B363914CAC54A009A5B5E /* MainMenu.xib in Resources */,
+				3A2B374C14CC339D009A5B5E /* rpn-icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +271,7 @@
 			files = (
 				3A2B362F14CAC54A009A5B5E /* main.m in Sources */,
 				3A2B363614CAC54A009A5B5E /* CalculatorAppDelegate.m in Sources */,
+				3A2B374114CC1AEB009A5B5E /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +445,7 @@
 				3A2B365214CAC54A009A5B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A2B365314CAC54A009A5B5E /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +454,7 @@
 				3A2B365514CAC54A009A5B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

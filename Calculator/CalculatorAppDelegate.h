@@ -13,6 +13,7 @@
 
 @property (assign) IBOutlet NSWindow *window;
 @property (weak) IBOutlet NSTextField *mydisplay;
+- (IBAction)urlPressed:(NSTextField *)sender;
 
 
 - (IBAction)digitPressed:(id)sender;

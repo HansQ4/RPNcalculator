@@ -30,6 +30,11 @@
     
 }
 
+- (IBAction)urlPressed:(NSTextField *)sender {
+    NSLog(@"URL link is clicked");
+    
+}
+
 - (IBAction)digitPressed:(NSButton *)sender {
     
     NSString *digit = sender.title;
