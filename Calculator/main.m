@@ -10,5 +10,6 @@
 
 int main(int argc, char *argv[])
 {
+    // starting the main program loop
     return NSApplicationMain(argc, (const char **)argv);
 }
